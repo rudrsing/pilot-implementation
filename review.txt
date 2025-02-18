@@ -1,0 +1,33 @@
+
+Code Review Comments:
+
+1. **Package Structure:**
+   - Ensure that all classes are placed in their respective packages as per the project structure. For example, `PilotController` should be in `com.demo.pilot.controller` and `PilotService` should be in `com.demo.pilot.service`.
+
+2. **Controller Methods:**
+   - Verify that the `PilotController` has at least two API methods: a GET method and a PUT method. Ensure both methods are properly annotated with Spring annotations (e.g., `@GetMapping`, `@PutMapping`) and validated using `@Valid` or other validation annotations.
+
+3. **Model Class:**
+   - Check that the `PilotUser` model class is created with `id` and `name` as its parameters and is placed in the `com.demo.pilot.model` package. Ensure proper use of annotations like `@Entity`, `@Id`, and `@Column`.
+
+4. **Exception Handling:**
+   - Ensure that proper exception handling is implemented in both the `PilotController` and `PilotService` classes. This includes using `@ExceptionHandler` in the controller and custom exception classes if necessary.
+
+5. **Test Cases:**
+   - Verify that there are respective test cases for the `PilotController` and `PilotService` classes. Ensure that the tests cover all possible scenarios and edge cases to ensure functionality and reliability.
+
+6. **Code Quality:**
+   - Check for code quality issues such as proper naming conventions, code formatting, and adherence to coding standards. Ensure that the code is clean, readable, and maintainable.
+
+7. **Documentation:**
+   - Ensure that the code is well-documented with inline comments and JavaDoc where necessary. This includes method descriptions, parameter explanations, and any important logic.
+
+8. **Dependencies:**
+   - Verify that all necessary dependencies are included in the `pom.xml` file and that there are no unnecessary dependencies.
+
+9. **Performance:**
+   - Check for any potential performance issues such as inefficient loops, unnecessary object creation, or suboptimal database queries.
+
+10. **Security:**
+    - Ensure that security best practices are followed, such as input validation, output encoding, and proper authentication and authorization mechanisms.
+
