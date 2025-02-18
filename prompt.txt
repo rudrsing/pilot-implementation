@@ -1,0 +1,29 @@
+Code Generation:
+Will be generating the code for the following prompt.
+[Create the below following constraints:
+1. the PilotController and the PilotService class should be in com.demo.pilot.controller and com.demo.pilot.service package.
+2. the controller should at least have two API methods, one will be a get method and other will be a put method and each should be properly annotated and validated.
+3. create a new PilotUser model class with id and name as its parameters and should be in com.demo.pilot.model package.
+4. create proper exception handling for the controller and service classes.
+5. create the respective test cases for the controller and service class.]
+
+
+
+Code Security Vulnerabilities:
+Guide code security vulnerabilities for the application
+
+Code Analysis and Review:
+Review all the java files under the ./pilot-implementation and provide the review comments in the review.txt file.
+
+Code Documentation:
+Will be generating in-line solutions for the same.
+
+TestCaes:
+1.Will be generating in-line solutions for the same. {/tests}
+2.Will verify the code coverage and provide the report.
+[generate the code coverage report for the application]
+
+
+
+
+
